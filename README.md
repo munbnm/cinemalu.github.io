@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
     <style>
         div{
@@ -12,6 +12,7 @@
 
    
 <body  >
+    <a href="str.htm">html</a>
     <div > 
         <button onclick="q()"> click </button></div>
     <script>
