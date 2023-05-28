@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style >
+        *{
+            background-repeat: no-repeat;
+            background-size: 1000px,1000px;
+        }
+        button{
+            position: relative;
+            top: 100px;
+            left: 100px;
+            background-color: aqua;
+          
+            color: whitesmoke;
+            border-radius: 100px;
+            box-shadow: 2px 2px 4px blueviolet;
+        }
+    </style>
+
+
+    
+   
+    </head>
+    <body>
+       
+        <button onclick="image()" value="hi">Change Image</button>
+        <script>
+            a=['./avengers.jfif','./i mano.jfif']
+            function image() {
+                console.log(a.length);
+                b=Math.floor(Math.random()*2)
+                imageUrl=a[b]
+                document.body.style.backgroundImage = "url('" + imageUrl + "')";
+            }
+    
+    
+        </script>
+    </body>
+    </html>
